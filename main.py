@@ -19,4 +19,4 @@ def convert_currency(message):
     except Exception as e:
         bot.send_message(message.chat.id, "Ошибка: неверный формат ввода или недостаточно данных")
 
-
+bot.polling()
